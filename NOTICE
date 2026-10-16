@@ -1,0 +1,111 @@
+EtchDroid for HarmonyOS — 版权与修改声明 / Copyright and Modification Notice
+============================================================================
+
+本作品是 EtchDroid 的修改版本（移植版本）。
+
+This work is a modified version (a port) of EtchDroid.
+
+--------------------------------------------------------------------------
+1. 上游作品 / Upstream work
+--------------------------------------------------------------------------
+
+  名称 / Name:        EtchDroid
+  源码 / Source:      https://github.com/EtchDroid/EtchDroid
+  版权 / Copyright:   EtchDroid 作者（depau）及其贡献者
+                      Copyright (C) the EtchDroid authors (depau) and contributors
+  许可证 / License:   GNU General Public License, version 3 (见 LICENSE 文件)
+
+上游项目由 depau 发起，作者与贡献者名单见上游仓库的提交记录。
+
+The upstream project was started by depau; the full list of authors and
+contributors is available in the upstream repository's commit history.
+
+--------------------------------------------------------------------------
+2. 本修改版本 / This modified version
+--------------------------------------------------------------------------
+
+  名称 / Name:        EtchDroid 鸿蒙版 / EtchDroid for HarmonyOS
+                      （分发名称；非官方版本，详见第 5 节）
+  平台 / Platform:    OpenHarmony / HarmonyOS（ArkTS，Stage 模型）
+  修改者 / Modifier:  【请填写你的开发者名称】
+  修改日期 / Date:    2026-10
+  许可证 / License:   GNU General Public License, version 3（与上游一致）
+
+本版本依照 GNU GPLv3 第 5 条发布：它是上游程序的修改版本，并同样以
+GPLv3 授权。本版本的整体版权由上游作者与本版本的修改者共同构成。
+
+This version is released under section 5 of the GNU GPLv3: it is a modified
+version of the upstream program and is licensed under the GPLv3 as a whole.
+Copyright in this version is held by the upstream authors and by the modifier
+of this version, respectively.
+
+--------------------------------------------------------------------------
+3. 修改内容概要 / Summary of modifications
+--------------------------------------------------------------------------
+
+  * 用 ArkTS 重写 Android/Kotlin 实现，目标平台由 Android 改为
+    OpenHarmony / HarmonyOS（Stage 模型，API 21+）。
+  * 用自实现的 SCSI Bulk-Only Transport 栈（@ohos.usbManager）替换
+    libaums 的 USB Mass Storage 实现。
+  * 用 ArkUI 声明式 UI 重写 Compose 界面（首页 / 确认页 / 进度页）。
+  * 协程与 Channel 改为 ArkTS 异步队列；WakeLock 改为后台长时任务
+    （DATA_TRANSFER）；SharedPreferences 改为 @ohos.data.preferences。
+  * 移除原版的可选遥测 / Sentry 上报与商店评价相关代码。
+  * 应用文案已本地化为中文（zh_CN 资源，译法对齐上游官方 values-zh-rCN）。
+  * 逐文件对应关系见源码中各文件头部的注释（"Port of ..."）。
+
+  * Rewritten in ArkTS for OpenHarmony / HarmonyOS (Stage model, API 21+).
+  * The libaums USB Mass Storage implementation was replaced by a hand-written
+    SCSI Bulk-Only Transport stack on top of @ohos.usbManager.
+  * Compose UI replaced by ArkUI (start / confirm / progress pages).
+  * Coroutines and Channels replaced by an ArkTS async queue; WakeLock replaced
+    by a DATA_TRANSFER continuous task; SharedPreferences replaced by
+    @ohos.data.preferences.
+  * The upstream optional telemetry / Sentry reporting and store-review code
+    were removed.
+  * The UI strings ship with a Simplified Chinese localization (zh_CN
+    resources), using the same wording as upstream's values-zh-rCN.
+  * Per-file correspondence is documented in the header comment of each source
+    file ("Port of ...").
+
+--------------------------------------------------------------------------
+4. 对应源代码 / Corresponding Source
+--------------------------------------------------------------------------
+
+GPLv3 要求分发目标代码时同时提供对应源代码。本版本的完整源代码发布于：
+
+  【请填写你的源代码仓库地址，例如 https://gitee.com/<你的账号>/etchdroid-harmony】
+
+The GPLv3 requires the Corresponding Source to be offered alongside any
+distribution of object code. The complete source of this version is available
+at the address above.
+
+任何人以二进制形式分发本应用（包括通过应用市场分发），都必须能够提供上述
+源代码，且不得增加 GPLv3 之外的额外限制。
+
+Anyone conveying this application in object-code form (including through an app
+store) must be able to provide that source and may not impose restrictions
+beyond those of the GPLv3.
+
+--------------------------------------------------------------------------
+5. 商标 / Trademarks
+--------------------------------------------------------------------------
+
+GPLv3 授予的是版权许可，不授予商标权（第 7 条 e 项将"拒绝授予商标权"列为
+允许的附加条款）。本修改版本不代表上游作者，也未获得上游作者的背书。
+
+The GPLv3 grants copyright permissions only, not trademark rights (section 7(e)
+lists declining to grant trademark rights as a permitted additional term). This
+modified version is not made by, and is not endorsed by, the upstream authors.
+
+本修改版本以"EtchDroid 鸿蒙版"为分发名称，并使用上游的原始应用图标（未作任何
+改动）。发行方正在向上游作者申请名称与图标的书面许可（模板见
+docs/upstream-permission-request.md）；在获得许可之前，不主张任何商标权利，
+也不表示与上游存在隶属或背书关系。
+
+This modified version is distributed under the name "EtchDroid 鸿蒙版" and uses
+the upstream application icon unchanged. The distributor is seeking written
+permission for the name and the icon (template:
+docs/upstream-permission-request.md). Until such permission is granted, no
+trademark rights are claimed and no affiliation with or endorsement by the
+upstream authors is implied.

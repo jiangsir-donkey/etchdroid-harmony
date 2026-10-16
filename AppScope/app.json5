@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "eu.depau.etchdroid.harmony",
+    "vendor": "etchdroid",
+    "versionCode": 1000000,
+    "versionName": "2.1.0",
+    "icon": "$media:app_icon",
+    "label": "$string:app_name"
+  }
+}

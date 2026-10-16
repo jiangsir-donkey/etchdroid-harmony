@@ -1,0 +1,38 @@
+EtchDroid for HarmonyOS - provenance and attribution
+====================================================
+
+This directory is a port of the Android implementation in ../app.
+
+  Upstream (Android)   EtchDroid, Copyright (C) the EtchDroid authors (depau)
+                       and contributors. GPLv3, see ../LICENSE.
+
+  This port (ArkTS)    Copyright (C) the author of harmonyos/.
+                       GPLv3, the same license as the rest of this repository.
+
+What was ported
+---------------
+The design and behaviour of the image writing pipeline, the USB Mass Storage
+(SCSI Bulk-Only Transport) layer, and the three-screen flow. The Kotlin sources
+were rewritten in ArkTS for the HarmonyOS Stage model. No Kotlin code is shared
+with or linked from this directory.
+
+What was deliberately not ported
+--------------------------------
+The optional telemetry / Sentry reporting and the store review prompts of the
+Google Play flavor. This module requests no INTERNET permission.
+
+Icon
+----
+The HarmonyOS port ships the upstream launcher icon unchanged: the two copies
+shipped with the app (AppScope/resources/base/media/app_icon.png and
+entry/src/main/resources/base/media/startIcon.png) are byte-identical to
+app/src/main/res/mipmap-xxxhdpi/ic_launcher.png. design/upstream-icon-192.png and
+design/upstream-icon.svg keep the same artwork next to this port for provenance,
+so the icon does not have to be duplicated from ../app when reading this
+directory on its own.
+
+Trademark
+---------
+The GPLv3 grants copyright permissions only, not trademark rights. This
+directory is part of the EtchDroid project only when the EtchDroid maintainers
+have merged it; until then it is an independent, unofficial port.

@@ -1,0 +1,580 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "EtchDroid for HarmonyOS (unofficial port) entry module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Write disk images to USB drives"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "EtchDroid 鸿蒙版"
+    },
+    {
+      "name": "reason_keep_background",
+      "value": "Writing a disk image to a USB drive requires the transfer to keep running in the background."
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "write_an_image",
+      "value": "Write an image"
+    },
+    {
+      "name": "whats_supported",
+      "value": "What's supported?"
+    },
+    {
+      "name": "select_a_usb_drive",
+      "value": "Select a USB drive"
+    },
+    {
+      "name": "connect_a_usb_drive",
+      "value": "Connect a USB drive"
+    },
+    {
+      "name": "looking_for_usb_drives",
+      "value": "Looking for USB drives"
+    },
+    {
+      "name": "usb_host_unavailable",
+      "value": "USB is not available on this device. Writing images needs a phone or tablet with USB host (OTG) support; an emulator cannot do it."
+    },
+    {
+      "name": "confirm_operation",
+      "value": "Confirm operation"
+    },
+    {
+      "name": "disk_image",
+      "value": "Disk image"
+    },
+    {
+      "name": "usb_drive",
+      "value": "USB drive"
+    },
+    {
+      "name": "destination_usb_device",
+      "value": "Destination USB device"
+    },
+    {
+      "name": "unknown_device",
+      "value": "Unknown device"
+    },
+    {
+      "name": "grant_access",
+      "value": "Grant access"
+    },
+    {
+      "name": "permission_granted",
+      "value": "Permission granted"
+    },
+    {
+      "name": "permission_denied_for_usb_device",
+      "value": "Permission denied for USB device %s"
+    },
+    {
+      "name": "usb_device_was_unplugged",
+      "value": "USB device was unplugged"
+    },
+    {
+      "name": "be_careful",
+      "value": "Be careful!"
+    },
+    {
+      "name": "writing_the_image_will_erase",
+      "value": "Writing the image will erase all data on the selected drive"
+    },
+    {
+      "name": "write_image",
+      "value": "Write image"
+    },
+    {
+      "name": "lay_your_device_flat_no_accel",
+      "value": "Lay your device flat on a table before continuing."
+    },
+    {
+      "name": "continue_",
+      "value": "Continue"
+    },
+    {
+      "name": "lay_your_device_flat",
+      "value": "Lay your device flat on a table and don't touch it"
+    },
+    {
+      "name": "skip",
+      "value": "Skip"
+    },
+    {
+      "name": "supported_devices_and_images",
+      "value": "Supported devices and images"
+    },
+    {
+      "name": "devices",
+      "value": "Devices"
+    },
+    {
+      "name": "usb_flash_drives",
+      "value": "USB flash drives"
+    },
+    {
+      "name": "memory_cards_using_a_usb_adapter",
+      "value": "Memory cards, using a USB adapter"
+    },
+    {
+      "name": "usb_hard_drives_ssds_some_might_work",
+      "value": "USB hard drives / SSDs (some might work)"
+    },
+    {
+      "name": "usb_docks_and_hubs_might_have_power_issues",
+      "value": "USB docks and hubs (they might have power issues)"
+    },
+    {
+      "name": "memory_cards_using_the_internal_slot",
+      "value": "Memory cards, using the internal slot"
+    },
+    {
+      "name": "optical_disk_drives",
+      "value": "Optical disk drives"
+    },
+    {
+      "name": "floppy_disk_drives",
+      "value": "Floppy disk drives"
+    },
+    {
+      "name": "any_thunderbolt_only_device",
+      "value": "Any Thunderbolt-only device"
+    },
+    {
+      "name": "very_large_drives_2tb",
+      "value": "Very large drives (>= 2 TB)"
+    },
+    {
+      "name": "disk_images",
+      "value": "Disk images"
+    },
+    {
+      "name": "microsoft_windows_isos_any_version",
+      "value": "Microsoft Windows ISOs (any version)"
+    },
+    {
+      "name": "apple_dmg_disk_images",
+      "value": "Apple DMG disk images"
+    },
+    {
+      "name": "modern_linux_images",
+      "value": "Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD etc."
+    },
+    {
+      "name": "raspberry_pi_sd_card_images_unzip_first",
+      "value": "Raspberry Pi SD card images (unzip first!)"
+    },
+    {
+      "name": "any_other_image_that_works_with_balena_etcher_or_dd",
+      "value": "Any other image that works with Balena Etcher or dd"
+    },
+    {
+      "name": "older_gnu_linux_distributions_isos_2010",
+      "value": "Older GNU/Linux distributions' ISOs (< 2010)"
+    },
+    {
+      "name": "supported",
+      "value": "Supported"
+    },
+    {
+      "name": "maybe_supported",
+      "value": "Maybe supported"
+    },
+    {
+      "name": "not_supported",
+      "value": "Not supported"
+    },
+    {
+      "name": "is_this_a_windows_iso",
+      "value": "Is this a Windows ISO?"
+    },
+    {
+      "name": "a_regular_windows_iso_won_t_work",
+      "value": "A regular Windows ISO won't work with EtchDroid, unless it has specifically been prepared for use with EtchDroid, Etcher or dd."
+    },
+    {
+      "name": "continue_anyway",
+      "value": "Continue anyway"
+    },
+    {
+      "name": "verifying_image",
+      "value": "Verifying image"
+    },
+    {
+      "name": "writing_image",
+      "value": "Writing image"
+    },
+    {
+      "name": "please_avoid_using_your_device",
+      "value": "Please avoid using your device"
+    },
+    {
+      "name": "would_you_like_to_be_notified",
+      "value": "Would you like to be notified when done? Only progress updates, no spam or ads."
+    },
+    {
+      "name": "no_thanks",
+      "value": "No, thanks"
+    },
+    {
+      "name": "sure",
+      "value": "Sure"
+    },
+    {
+      "name": "verifying",
+      "value": "Verifying"
+    },
+    {
+      "name": "copying",
+      "value": "Copying"
+    },
+    {
+      "name": "against",
+      "value": "against"
+    },
+    {
+      "name": "to",
+      "value": "to"
+    },
+    {
+      "name": "getting_ready",
+      "value": "Getting ready..."
+    },
+    {
+      "name": "skip_verification",
+      "value": "Skip verification"
+    },
+    {
+      "name": "image_written_successfully",
+      "value": "Image written successfully!"
+    },
+    {
+      "name": "there_was_an_error",
+      "value": "There was an error"
+    },
+    {
+      "name": "error",
+      "value": "Error"
+    },
+    {
+      "name": "start_over",
+      "value": "Start over"
+    },
+    {
+      "name": "try_again",
+      "value": "Try again"
+    },
+    {
+      "name": "i_did_not_unplug_it",
+      "value": "I did not unplug it!"
+    },
+    {
+      "name": "how_did_this_happen",
+      "value": "How did this happen?"
+    },
+    {
+      "name": "perhaps_your_usb_port_is_dirty",
+      "value": "Perhaps your USB port is dirty, your adapter is defective, or your device can't provide enough electrical power. Consider trying a different adapter or device."
+    },
+    {
+      "name": "usb_drives_are_unreliable",
+      "value": "USB drives are unreliable, and this platform doesn't grant enough permissions to recover automatically. We have to make do with what we have!"
+    },
+    {
+      "name": "this_is_unexpected_it_s_probably_a_bug_please_report_it",
+      "value": "This is unexpected, it's probably a bug. Please report it!"
+    },
+    {
+      "name": "to_recover_unplug",
+      "value": "To recover, unplug your USB drive, plug it back in and grant the permission to access it again."
+    },
+    {
+      "name": "plug_in_the_same_usb",
+      "value": "Plug in the same USB device you used before!"
+    },
+    {
+      "name": "usb_device_reconnected_resuming",
+      "value": "USB device reconnected, resuming"
+    },
+    {
+      "name": "the_device_is_not_responding",
+      "value": "The device is not responding"
+    },
+    {
+      "name": "missing_permission_to_access_the_usb_device",
+      "value": "Missing permission to access the USB device"
+    },
+    {
+      "name": "the_usb_drive_is_too_large",
+      "value": "The USB drive is too large and EtchDroid does not support it."
+    },
+    {
+      "name": "the_image_is_is_larger_than_the_device",
+      "value": "The image (%s) is larger than the device (%s)"
+    },
+    {
+      "name": "the_usb_device_content_does_not_match_the_image",
+      "value": "The USB device content does not match the image"
+    },
+    {
+      "name": "write_another_image",
+      "value": "Write another image"
+    },
+    {
+      "name": "title_activity_confirm_operation",
+      "value": "Confirm operation"
+    },
+    {
+      "name": "no_image_uri_provided",
+      "value": "No image URI provided"
+    },
+    {
+      "name": "no_destination_device_selected",
+      "value": "No destination device selected"
+    },
+    {
+      "name": "service_timeout_message",
+      "value": "The writing process seems to have gotten stuck. Please try again."
+    },
+    {
+      "name": "unknown_filename",
+      "value": "Unknown file name"
+    },
+    {
+      "name": "please_report_fatal_issue",
+      "value": "If you can, please report this issue on GitHub along with the steps that led to this error."
+    },
+    {
+      "name": "write_finished",
+      "value": "Write finished"
+    },
+    {
+      "name": "success_notif_content_text",
+      "value": "%s successfully written to %s"
+    },
+    {
+      "name": "write_failed",
+      "value": "Write failed"
+    },
+    {
+      "name": "action_required",
+      "value": "Action required"
+    },
+    {
+      "name": "notif_channel_job_progress_name",
+      "value": "Job progress"
+    },
+    {
+      "name": "notif_channel_job_progress_desc",
+      "value": "Used to show the progress of the current job"
+    },
+    {
+      "name": "notif_channel_job_result_name",
+      "value": "Job outcome"
+    },
+    {
+      "name": "notif_channel_job_result_desc",
+      "value": "Used to show a completed job outcome"
+    },
+    {
+      "name": "notification_write_progress_title",
+      "value": "Writing image..."
+    },
+    {
+      "name": "notification_verify_progress_title",
+      "value": "Verifying image..."
+    },
+    {
+      "name": "notification_write_progress_content",
+      "value": "%s to %s"
+    },
+    {
+      "name": "notification_verify_progress_content",
+      "value": "%s against %s"
+    },
+    {
+      "name": "notification_write_tap_for_progress_text",
+      "value": "Tap for progress - Writing %s to %s"
+    },
+    {
+      "name": "about",
+      "value": "About"
+    },
+    {
+      "name": "developed_by",
+      "value": "EtchDroid is developed by %s and other contributors.\nUpstream source code is available on GitHub.\nLicensed under the GNU GPLv3 license."
+    },
+    {
+      "name": "unofficial_port_notice",
+      "value": "Unofficial HarmonyOS port of the EtchDroid open-source project. Not affiliated with, nor endorsed by, the upstream developers."
+    },
+    {
+      "name": "usb_device_not_responding_detach",
+      "value": "The USB device stopped responding. Unplug it and plug it back in."
+    },
+    {
+      "name": "an_unknown_error_occurred",
+      "value": "An unknown error occurred: %s"
+    },
+    {
+      "name": "could_not_open_the_source_file",
+      "value": "Could not open the source file"
+    },
+    {
+      "name": "the_usb_drive_stopped_responding",
+      "value": "The USB drive stopped responding"
+    },
+    {
+      "name": "the_usb_drive_was_unplugged",
+      "value": "The USB drive was unplugged"
+    },
+    {
+      "name": "no_media_in_usb_drive",
+      "value": "No media is inserted in the USB drive"
+    },
+    {
+      "name": "grant_usb_access",
+      "value": "Allow EtchDroid to access this USB drive"
+    },
+    {
+      "name": "notification_write_no_notifications_text",
+      "value": "Enable notifications for progress • Writing %s to %s"
+    },
+    {
+      "name": "style",
+      "value": "Style"
+    },
+    {
+      "name": "device_setting",
+      "value": "Device setting"
+    },
+    {
+      "name": "light",
+      "value": "Light"
+    },
+    {
+      "name": "dark",
+      "value": "Dark"
+    },
+    {
+      "name": "dynamic_colors",
+      "value": "Dynamic colors"
+    },
+    {
+      "name": "image_to_write",
+      "value": "Image to write"
+    },
+    {
+      "name": "arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc",
+      "value": "Arch Linux, Ubuntu, Debian, Fedora, pop!_OS, Linux Mint, FreeBSD etc."
+    },
+    {
+      "name": "other_modern_gnu_linux_and_bsd_distributions_live_isos",
+      "value": "Other modern GNU/Linux and BSD distributions' live ISOs"
+    },
+    {
+      "name": "support_for_dmg_images_was_removed",
+      "value": "Support for DMG images was removed in EtchDroid 2.0. Older versions can be downloaded from %s."
+    },
+    {
+      "name": "contributors",
+      "value": "contributors"
+    },
+    {
+      "name": "website",
+      "value": "Website"
+    },
+    {
+      "name": "support_the_project",
+      "value": "Support financially"
+    },
+    {
+      "name": "write_a_review",
+      "value": "Write a review"
+    },
+    {
+      "name": "star_on_github",
+      "value": "Star on GitHub"
+    },
+    {
+      "name": "source_code",
+      "value": "This port's source code (GPLv3)"
+    },
+    {
+      "name": "got_an_unsupported_drive_notification",
+      "value": "Got an \"Issues with this drive\" notification?"
+    },
+    {
+      "name": "it_s_safe_to_ignore",
+      "value": "It's safe to ignore! Just unplug your drive and use it normally. %s and see how to format your drive later."
+    },
+    {
+      "name": "learn_what_it_means",
+      "value": "Learn what it means"
+    },
+    {
+      "name": "representation_of_the_required_steps",
+      "value": "Representation of the required steps: unplug, reconnect, grant permission"
+    },
+    {
+      "name": "community_windows_images",
+      "value": "Community-built Windows images, made for EtchDroid (you're on your own: they might contain viruses!)"
+    },
+    {
+      "name": "worker_null_device_error",
+      "value": "A write attempt was started but unfortunately some info got lost along the way. Please try again."
+    },
+    {
+      "name": "view_github_issues",
+      "value": "View GitHub issues"
+    },
+    {
+      "name": "telemetry",
+      "value": "Telemetry"
+    },
+    {
+      "name": "privacy_policy",
+      "value": "Privacy policy"
+    },
+    {
+      "name": "telemetry_rationale",
+      "value": "EtchDroid values your privacy and only uses minimal telemetry to investigate app issues.\n\nBe a part of our open-source community—keep telemetry enabled and help improve EtchDroid for everyone!\n\nWhile we don't collect any personally-identifying information, we believe in transparency and want you to know that opened image file names and USB device IDs are collected anonymously to help diagnose issues with specific hardware. (%s)"
+    },
+    {
+      "name": "we_need_your_help",
+      "value": "We need your help!"
+    },
+    {
+      "name": "telemetry_icon",
+      "value": "Telemetry icon"
+    },
+    {
+      "name": "telemetry_opt_out",
+      "value": "Opt-out"
+    },
+    {
+      "name": "telemetry_keep_enabled",
+      "value": "Keep enabled"
+    },
+    {
+      "name": "etchdroid_uses_telemetry",
+      "value": "EtchDroid sends telemetry info."
+    },
+    {
+      "name": "learn_more",
+      "value": "Learn more"
+    },
+    {
+      "name": "send_anonymous_data",
+      "value": "Send anonymous data"
+    }
+  ]
+}

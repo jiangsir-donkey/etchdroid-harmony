@@ -1,0 +1,580 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "EtchDroid 鸿蒙版（非官方移植）主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "将磁盘镜像写入 USB 驱动器"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "EtchDroid 鸿蒙版"
+    },
+    {
+      "name": "reason_keep_background",
+      "value": "向 USB 驱动器写入镜像时，传输需要在后台持续运行。"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "write_an_image",
+      "value": "写入镜像"
+    },
+    {
+      "name": "whats_supported",
+      "value": "此工具支持什么？"
+    },
+    {
+      "name": "select_a_usb_drive",
+      "value": "选择一个 USB 驱动器"
+    },
+    {
+      "name": "connect_a_usb_drive",
+      "value": "连接 USB 驱动器"
+    },
+    {
+      "name": "looking_for_usb_drives",
+      "value": "正在查找 USB 驱动器"
+    },
+    {
+      "name": "usb_host_unavailable",
+      "value": "此设备不支持 USB。写入镜像需要支持 USB 主机（OTG）的手机或平板，模拟器无法完成。"
+    },
+    {
+      "name": "confirm_operation",
+      "value": "确认操作"
+    },
+    {
+      "name": "disk_image",
+      "value": "磁盘镜像"
+    },
+    {
+      "name": "usb_drive",
+      "value": "USB 驱动器"
+    },
+    {
+      "name": "destination_usb_device",
+      "value": "目标 USB 设备"
+    },
+    {
+      "name": "unknown_device",
+      "value": "未知设备"
+    },
+    {
+      "name": "grant_access",
+      "value": "授予权限"
+    },
+    {
+      "name": "permission_granted",
+      "value": "权限已授予"
+    },
+    {
+      "name": "permission_denied_for_usb_device",
+      "value": "USB 设备的访问权限被拒绝：%s"
+    },
+    {
+      "name": "usb_device_was_unplugged",
+      "value": "USB 设备已拔出"
+    },
+    {
+      "name": "be_careful",
+      "value": "请注意！"
+    },
+    {
+      "name": "writing_the_image_will_erase",
+      "value": "写入镜像将擦除所选驱动器上的全部数据"
+    },
+    {
+      "name": "write_image",
+      "value": "写入镜像"
+    },
+    {
+      "name": "lay_your_device_flat_no_accel",
+      "value": "继续操作前，请先将设备平放在桌面上。"
+    },
+    {
+      "name": "continue_",
+      "value": "继续"
+    },
+    {
+      "name": "lay_your_device_flat",
+      "value": "将设备平放在桌面上，不要触碰它"
+    },
+    {
+      "name": "skip",
+      "value": "跳过"
+    },
+    {
+      "name": "supported_devices_and_images",
+      "value": "支持的设备与镜像"
+    },
+    {
+      "name": "devices",
+      "value": "设备"
+    },
+    {
+      "name": "usb_flash_drives",
+      "value": "U 盘"
+    },
+    {
+      "name": "memory_cards_using_a_usb_adapter",
+      "value": "存储卡（通过 USB 读卡器）"
+    },
+    {
+      "name": "usb_hard_drives_ssds_some_might_work",
+      "value": "USB 硬盘 / 固态硬盘（部分可能可用）"
+    },
+    {
+      "name": "usb_docks_and_hubs_might_have_power_issues",
+      "value": "USB 扩展坞与集线器（可能存在供电问题）"
+    },
+    {
+      "name": "memory_cards_using_the_internal_slot",
+      "value": "存储卡（使用机身内置插槽）"
+    },
+    {
+      "name": "optical_disk_drives",
+      "value": "光盘驱动器"
+    },
+    {
+      "name": "floppy_disk_drives",
+      "value": "软盘驱动器"
+    },
+    {
+      "name": "any_thunderbolt_only_device",
+      "value": "任何仅支持雷电接口的设备"
+    },
+    {
+      "name": "very_large_drives_2tb",
+      "value": "超大容量驱动器（≥ 2 TB）"
+    },
+    {
+      "name": "disk_images",
+      "value": "磁盘镜像"
+    },
+    {
+      "name": "microsoft_windows_isos_any_version",
+      "value": "微软 Windows ISO（任何版本）"
+    },
+    {
+      "name": "apple_dmg_disk_images",
+      "value": "Apple DMG 磁盘镜像"
+    },
+    {
+      "name": "modern_linux_images",
+      "value": "Arch Linux、Ubuntu、Debian、Fedora、pop!_OS、Linux Mint、FreeBSD 等"
+    },
+    {
+      "name": "raspberry_pi_sd_card_images_unzip_first",
+      "value": "树莓派 SD 卡镜像（请先解压！）"
+    },
+    {
+      "name": "any_other_image_that_works_with_balena_etcher_or_dd",
+      "value": "任何与 Balena Etcher 或 dd 兼容的其他镜像"
+    },
+    {
+      "name": "older_gnu_linux_distributions_isos_2010",
+      "value": "较旧的 GNU/Linux 发行版 ISO（2010 年以前）"
+    },
+    {
+      "name": "supported",
+      "value": "支持"
+    },
+    {
+      "name": "maybe_supported",
+      "value": "也许支持"
+    },
+    {
+      "name": "not_supported",
+      "value": "不支持"
+    },
+    {
+      "name": "is_this_a_windows_iso",
+      "value": "这是 Windows ISO 镜像吗？"
+    },
+    {
+      "name": "a_regular_windows_iso_won_t_work",
+      "value": "普通的 Windows ISO 无法配合 EtchDroid 使用，除非它专门为 EtchDroid、Etcher 或 dd 准备过。"
+    },
+    {
+      "name": "continue_anyway",
+      "value": "仍然继续"
+    },
+    {
+      "name": "verifying_image",
+      "value": "正在校验镜像"
+    },
+    {
+      "name": "writing_image",
+      "value": "正在写入镜像"
+    },
+    {
+      "name": "please_avoid_using_your_device",
+      "value": "请尽量不要使用此设备"
+    },
+    {
+      "name": "would_you_like_to_be_notified",
+      "value": "完成后需要通知你吗？只有进度更新，没有垃圾信息或广告。"
+    },
+    {
+      "name": "no_thanks",
+      "value": "不用了，谢谢"
+    },
+    {
+      "name": "sure",
+      "value": "好的"
+    },
+    {
+      "name": "verifying",
+      "value": "正在校验"
+    },
+    {
+      "name": "copying",
+      "value": "正在复制"
+    },
+    {
+      "name": "against",
+      "value": "对比"
+    },
+    {
+      "name": "to",
+      "value": "到"
+    },
+    {
+      "name": "getting_ready",
+      "value": "正在准备…"
+    },
+    {
+      "name": "skip_verification",
+      "value": "跳过校验"
+    },
+    {
+      "name": "image_written_successfully",
+      "value": "镜像写入成功！"
+    },
+    {
+      "name": "there_was_an_error",
+      "value": "出错了"
+    },
+    {
+      "name": "error",
+      "value": "错误"
+    },
+    {
+      "name": "start_over",
+      "value": "重新开始"
+    },
+    {
+      "name": "try_again",
+      "value": "重试"
+    },
+    {
+      "name": "i_did_not_unplug_it",
+      "value": "我没有拔掉它！"
+    },
+    {
+      "name": "how_did_this_happen",
+      "value": "这是怎么发生的？"
+    },
+    {
+      "name": "perhaps_your_usb_port_is_dirty",
+      "value": "可能是 USB 接口脏了、转接线有问题，或者设备供电不足。可以换一根转接线或换个设备试试。"
+    },
+    {
+      "name": "usb_drives_are_unreliable",
+      "value": "USB 驱动器本身就不可靠，而这个平台没有授予足够的权限来自动恢复。我们只能将就一下了！"
+    },
+    {
+      "name": "this_is_unexpected_it_s_probably_a_bug_please_report_it",
+      "value": "这不该发生，很可能是个 bug，请反馈给我们！"
+    },
+    {
+      "name": "to_recover_unplug",
+      "value": "要恢复，请拔下 USB 驱动器，重新插入，并再次授予访问权限。"
+    },
+    {
+      "name": "plug_in_the_same_usb",
+      "value": "请插入之前使用的同一个 USB 设备！"
+    },
+    {
+      "name": "usb_device_reconnected_resuming",
+      "value": "USB 设备已重新连接，继续写入"
+    },
+    {
+      "name": "the_device_is_not_responding",
+      "value": "设备无响应"
+    },
+    {
+      "name": "missing_permission_to_access_the_usb_device",
+      "value": "缺少访问该 USB 设备的权限"
+    },
+    {
+      "name": "the_usb_drive_is_too_large",
+      "value": "USB 驱动器容量过大，EtchDroid 不支持。"
+    },
+    {
+      "name": "the_image_is_is_larger_than_the_device",
+      "value": "镜像（%s）大于设备（%s）"
+    },
+    {
+      "name": "the_usb_device_content_does_not_match_the_image",
+      "value": "USB 设备内容与镜像不一致"
+    },
+    {
+      "name": "write_another_image",
+      "value": "再写入一个镜像"
+    },
+    {
+      "name": "title_activity_confirm_operation",
+      "value": "确认操作"
+    },
+    {
+      "name": "no_image_uri_provided",
+      "value": "未提供镜像地址"
+    },
+    {
+      "name": "no_destination_device_selected",
+      "value": "未选择目标设备"
+    },
+    {
+      "name": "service_timeout_message",
+      "value": "写入过程似乎卡住了，请重试。"
+    },
+    {
+      "name": "unknown_filename",
+      "value": "未知文件名"
+    },
+    {
+      "name": "please_report_fatal_issue",
+      "value": "如果方便，请在 GitHub 上反馈此问题，并附上导致该错误的操作步骤。"
+    },
+    {
+      "name": "write_finished",
+      "value": "写入完成"
+    },
+    {
+      "name": "success_notif_content_text",
+      "value": "%s 已成功写入 %s"
+    },
+    {
+      "name": "write_failed",
+      "value": "写入失败"
+    },
+    {
+      "name": "action_required",
+      "value": "需要操作"
+    },
+    {
+      "name": "notif_channel_job_progress_name",
+      "value": "任务进度"
+    },
+    {
+      "name": "notif_channel_job_progress_desc",
+      "value": "用于显示当前任务的进度"
+    },
+    {
+      "name": "notif_channel_job_result_name",
+      "value": "任务结果"
+    },
+    {
+      "name": "notif_channel_job_result_desc",
+      "value": "用于显示任务完成后的结果"
+    },
+    {
+      "name": "notification_write_progress_title",
+      "value": "正在写入镜像…"
+    },
+    {
+      "name": "notification_verify_progress_title",
+      "value": "正在校验镜像…"
+    },
+    {
+      "name": "notification_write_progress_content",
+      "value": "%s 到 %s"
+    },
+    {
+      "name": "notification_verify_progress_content",
+      "value": "%s 对比 %s"
+    },
+    {
+      "name": "notification_write_tap_for_progress_text",
+      "value": "点击查看进度 · 正在将 %s 写入 %s"
+    },
+    {
+      "name": "about",
+      "value": "关于"
+    },
+    {
+      "name": "developed_by",
+      "value": "EtchDroid 由 %s 及其他贡献者开发。\n上游源代码托管在 GitHub。\n基于 GNU GPLv3 许可证授权。"
+    },
+    {
+      "name": "unofficial_port_notice",
+      "value": "这是 EtchDroid 开源项目的非官方鸿蒙移植版，与上游开发者无隶属关系，也未获其背书。"
+    },
+    {
+      "name": "usb_device_not_responding_detach",
+      "value": "USB 设备已停止响应。请拔下后重新插入。"
+    },
+    {
+      "name": "an_unknown_error_occurred",
+      "value": "发生未知错误：%s"
+    },
+    {
+      "name": "could_not_open_the_source_file",
+      "value": "无法打开源文件"
+    },
+    {
+      "name": "the_usb_drive_stopped_responding",
+      "value": "USB 驱动器已停止响应"
+    },
+    {
+      "name": "the_usb_drive_was_unplugged",
+      "value": "USB 驱动器已拔出"
+    },
+    {
+      "name": "no_media_in_usb_drive",
+      "value": "USB 驱动器中没有插入介质"
+    },
+    {
+      "name": "grant_usb_access",
+      "value": "允许 EtchDroid 访问此 USB 驱动器"
+    },
+    {
+      "name": "notification_write_no_notifications_text",
+      "value": "开启通知以查看进度 · 正在将 %s 写入 %s"
+    },
+    {
+      "name": "style",
+      "value": "样式"
+    },
+    {
+      "name": "device_setting",
+      "value": "跟随系统"
+    },
+    {
+      "name": "light",
+      "value": "浅色"
+    },
+    {
+      "name": "dark",
+      "value": "深色"
+    },
+    {
+      "name": "dynamic_colors",
+      "value": "动态取色"
+    },
+    {
+      "name": "image_to_write",
+      "value": "要写入的镜像"
+    },
+    {
+      "name": "arch_linux_ubuntu_debian_fedora_pop_os_linux_mint_freebsd_etc",
+      "value": "Arch Linux、Ubuntu、Debian、Fedora、pop!_OS、Linux Mint、FreeBSD 等"
+    },
+    {
+      "name": "other_modern_gnu_linux_and_bsd_distributions_live_isos",
+      "value": "其他现代 GNU/Linux 与 BSD 发行版的 Live ISO"
+    },
+    {
+      "name": "support_for_dmg_images_was_removed",
+      "value": "自 EtchDroid 2.0 起已移除对 DMG 镜像的支持。旧版本可从 %s 下载。"
+    },
+    {
+      "name": "contributors",
+      "value": "贡献者"
+    },
+    {
+      "name": "website",
+      "value": "网站"
+    },
+    {
+      "name": "support_the_project",
+      "value": "赞助支持"
+    },
+    {
+      "name": "write_a_review",
+      "value": "撰写评价"
+    },
+    {
+      "name": "star_on_github",
+      "value": "在 GitHub 上点 Star"
+    },
+    {
+      "name": "source_code",
+      "value": "本移植版的源代码（GPLv3）"
+    },
+    {
+      "name": "got_an_unsupported_drive_notification",
+      "value": "收到「此驱动器有问题」的提示？"
+    },
+    {
+      "name": "it_s_safe_to_ignore",
+      "value": "可以放心忽略！拔下驱动器正常使用即可。%s 了解之后如何格式化驱动器。"
+    },
+    {
+      "name": "learn_what_it_means",
+      "value": "了解它意味着什么"
+    },
+    {
+      "name": "representation_of_the_required_steps",
+      "value": "所需步骤示意：拔下、重新插入、授予权限"
+    },
+    {
+      "name": "community_windows_images",
+      "value": "社区制作的、专供 EtchDroid 使用的 Windows 镜像（后果自负：可能含病毒！）"
+    },
+    {
+      "name": "worker_null_device_error",
+      "value": "已开始写入，但过程中丢失了一些信息。请重试。"
+    },
+    {
+      "name": "view_github_issues",
+      "value": "查看 GitHub Issues"
+    },
+    {
+      "name": "telemetry",
+      "value": "遥测"
+    },
+    {
+      "name": "privacy_policy",
+      "value": "隐私政策"
+    },
+    {
+      "name": "telemetry_rationale",
+      "value": "EtchDroid 重视你的隐私，只使用最低限度的遥测来排查应用问题。\n\n欢迎加入我们的开源社区——保持遥测开启，帮助 EtchDroid 变得更好！\n\n我们不收集任何可识别个人身份的信息。但出于透明，我们想让你知道：为帮助诊断特定硬件的故障，已打开的镜像文件名与 USB 设备 ID 会被匿名收集。（%s）"
+    },
+    {
+      "name": "we_need_your_help",
+      "value": "我们需要你的帮助！"
+    },
+    {
+      "name": "telemetry_icon",
+      "value": "遥测图标"
+    },
+    {
+      "name": "telemetry_opt_out",
+      "value": "退出"
+    },
+    {
+      "name": "telemetry_keep_enabled",
+      "value": "保持开启"
+    },
+    {
+      "name": "etchdroid_uses_telemetry",
+      "value": "EtchDroid 会发送遥测信息。"
+    },
+    {
+      "name": "learn_more",
+      "value": "了解更多"
+    },
+    {
+      "name": "send_anonymous_data",
+      "value": "发送匿名数据"
+    }
+  ]
+}
