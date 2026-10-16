@@ -27,7 +27,7 @@ contributors is available in the upstream repository's commit history.
   名称 / Name:        EtchDroid 鸿蒙版 / EtchDroid for HarmonyOS
                       （分发名称；非官方版本，详见第 5 节）
   平台 / Platform:    OpenHarmony / HarmonyOS（ArkTS，Stage 模型）
-  修改者 / Modifier:  【请填写你的开发者名称】
+  修改者 / Modifier:  蒋先生
   修改日期 / Date:    2026-10
   许可证 / License:   GNU General Public License, version 3（与上游一致）
 
@@ -74,7 +74,7 @@ of this version, respectively.
 
 GPLv3 要求分发目标代码时同时提供对应源代码。本版本的完整源代码发布于：
 
-  【请填写你的源代码仓库地址，例如 https://gitee.com/<你的账号>/etchdroid-harmony】
+  https://gitee.com/ditney/etchdroid-harmony
 
 The GPLv3 requires the Corresponding Source to be offered alongside any
 distribution of object code. The complete source of this version is available

@@ -2,15 +2,16 @@
 
 > 用法：打开 `https://github.com/EtchDroid/EtchDroid/discussions` →
 > `New discussion` → 分类选 **General** → 标题和正文照下面复制。
-> 发送前把 `<...>` 里的三处补上（只需 30 秒）。
+> 邮箱与仓库地址已填好；**唯一的前置条件是你得先有一个 GitHub 账号**（发帖平台限制，
+> 见下表最后一行）。
 
-## 你要补的三处
+## 就绪情况
 
 | 占位 | 填什么 | 现在知不知道 |
 | --- | --- | --- |
-| `<你的邮箱>` | 一个你常用的邮箱（**不要**用 git 里那个 `...@user.noreply.gitee.com`，那是免回复地址，收不到信） | ❓ 需你填 |
-| `<你的公开仓库地址>` | 移植版源码的公开仓库。**必须先建好仓库并推上去**，否则 GPLv3 义务未满足、链接也是死链 | ❓ 需你建 |
-| GitHub 用户名 | 建议与 Gitee 一致，方便对方核验 | 推断为 `ditney`，请确认 |
+| `<你的邮箱>` | `a15001665167@petalmail.com` | ✅ 已填 |
+| `<你的公开仓库地址>` | `https://gitee.com/ditney/etchdroid-harmony` —— 注意：**仓库必须先建好并推上去**，否则 GPLv3 义务未满足、链接也是死链 | ⬜ 待推送 |
+| GitHub 用户名 | 上游 Discussions 只对 GitHub 账号开放，**这一条是发帖的前提** | ❌ 你目前还没有 GitHub 账号 |
 
 建议仓库名：`etchdroid-harmony`，即 `https://gitee.com/ditney/etchdroid-harmony`
 （Gitee 支持 GitHub 账号互通，对方也能打开）。
@@ -53,7 +54,7 @@ three points:
 For transparency, here is what I am already doing:
 
   - The project is licensed under GPLv3, and the complete corresponding source
-    code is published at: <你的公开仓库地址>
+    code is published at: https://gitee.com/ditney/etchdroid-harmony
   - Upstream copyright notices are preserved (see NOTICE in the repository).
   - The in-app "About" screen displays, in the UI itself, that this is an
     unofficial port, not affiliated with nor endorsed by you.
@@ -70,8 +71,7 @@ reason I spent the effort porting it.
 
 Best regards,
 蒋先生
-<你的邮箱>
-GitHub: <你的 GitHub 用户名>
+a15001665167@petalmail.com
 ```
 
 ---
@@ -95,7 +95,7 @@ GPLv3 授权的是代码，不包含商标。上架前想就以下三点征求�
 
 目前已做到的信息披露：
 
-  - 项目以 GPLv3 分发，完整对应源代码公开在：<你的公开仓库地址>
+  - 项目以 GPLv3 分发，完整对应源代码公开在：https://gitee.com/ditney/etchdroid-harmony
   - 保留上游版权声明（见仓库内 NOTICE）。
   - App 内「关于」页明确标注：非官方移植，与上游开发者无关联、未获背书。
   - 无遥测、无广告，未申请网络权限（INTERNET）。
@@ -106,7 +106,7 @@ GPLv3 授权的是代码，不包含商标。上架前想就以下三点征求�
 
 顺祝安好，
 蒋先生
-<你的邮箱>
+a15001665167@petalmail.com
 ```
 
 ---

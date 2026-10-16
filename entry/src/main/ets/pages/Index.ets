@@ -38,7 +38,7 @@ class PickedImage {
  * The GPLv3 requires anyone who distributes this app to offer its Corresponding
  * Source, so the link is shown in the app. REPLACE THIS before publishing.
  */
-const SOURCE_REPO_URL = 'https://gitee.com/CHANGE_ME/etchdroid-harmony';
+const SOURCE_REPO_URL = 'https://gitee.com/ditney/etchdroid-harmony';
 
 @Entry
 @Component

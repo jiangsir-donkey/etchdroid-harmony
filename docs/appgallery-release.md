@@ -66,21 +66,24 @@
 | 中文界面 | `entry/src/main/resources/zh_CN/element/string.json`、`AppScope/.../zh_CN/element/string.json` | ✅ 已本地化 144 条文案，译法对齐上游官方 `values-zh-rCN/strings.xml`；系统语言为中文时自动生效 |
 | 无个人信息收集 | 应用只申请后台运行权限，**未申请 INTERNET** | ✅ 天然满足"不收集"的声明，隐私政策可以写得很干净 |
 
-### 3.2 上架前你必须自己补齐的（占位内容）
+### 3.2 占位内容（已填写，只剩两项待确认）
 
-`NOTICE`、`docs/privacy-policy.md` 和 `entry/src/main/ets/pages/Index.ets` 里
-有占位内容，必须替换：
+`NOTICE`、`docs/privacy-policy.md`、`docs/upstream-permission-request-ready.md`
+和 `entry/src/main/ets/pages/Index.ets` 里的占位内容当前状态：
 
-1. 【开发者名称】—— 与华为账号实名一致
-2. 【联系邮箱】
-3. 【应用名称】—— 见 3.3（当前为"EtchDroid 鸿蒙版"）
-4. 【源代码仓库地址】—— GPL 义务，务必是一个**公开可访问**的仓库，
-   里面要有完整可构建的源码（本仓库全部内容）
-5. `Index.ets:41` 的 `SOURCE_REPO_URL`（当前是
-   `https://gitee.com/CHANGE_ME/etchdroid-harmony`）—— App 内"关于"页的
-   源码按钮指向它，必须换成第 4 项那个真实仓库地址
+| # | 项目 | 当前值 | 状态 |
+| --- | --- | --- | --- |
+| 1 | 开发者名称 | 蒋先生 | ⚠️ **需你确认**：华为实名若是别的名字，必须改成实名一致，否则主体不符 |
+| 2 | 联系邮箱 | `a15001665167@petalmail.com` | ✅ 已填（注意此地址会出现在公开的隐私政策里） |
+| 3 | 应用名称 | EtchDroid 鸿蒙版 | ✅ 已填（见 3.3） |
+| 4 | 源代码仓库地址 | `https://gitee.com/ditney/etchdroid-harmony` | ⬜ **仓库还没推送**，推上去后链接才有效 |
+| 5 | `Index.ets:41` 的 `SOURCE_REPO_URL` | 同上 | ✅ 已填，已重新构建并在模拟器上验证「关于」页正常 |
 
-> 第 5 项改完要**重新构建并安装**（`./build.sh all`）才会在界面上生效。
+> 第 5 项已改完并**重新构建安装验证过**；若后续第 4 项的仓库地址有变，
+> 记得同步改 `Index.ets:41`，再跑一次 `./build.sh all`。
+
+**最容易出事的是第 1 项**：软著登记人、华为实名、隐私政策里的开发者名称三者
+必须一致。个人开发者尤其容易被"材料主体不一致"打回。
 
 ### 3.3 必须改的两处（风险最高）
 
